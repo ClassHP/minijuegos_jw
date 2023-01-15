@@ -1,0 +1,4 @@
+Lista|Libros de la Bíblia||Génesis,Éxodo,Levítico,Números,Deuteronomio,Josué,Jueces,Rut,Samuel,Reyes,Crónicas,Esdras,Nehemías,Ester,Job,Salmos,Proverbios,Eclesiastés,Isaías,Jeremías,Lamentaciones,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías,Mateo,Marcos,Lucas,Juan,Hechos,Romanos,Corintios,Gálatas,Efesios,Filipenses,Colosenses,Tesalonicenses,Timoteo,Tito,Filemón,Hebreos,Santiago,Pedro,Judas,Apocalipsis
+Texto|Hebreos  11 : 1|La fe es la certeza de que sucederá lo que se espera, la prueba convincente de que existen realidades que no se ven.|certeza,sucederá,espera,prueba,existen,realidades
+Lista|Amigos de Jehová||Abel,Abrahán,José,Noé,Isaac,Jacob,Rut,Ezeqías,María
+Lista|Profetas||Isaías,Jeremías,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías
