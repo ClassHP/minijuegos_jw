@@ -34,6 +34,6 @@ const List<Color> markerColors = [
   //Colors.redAccent,
   Colors.teal,
   //Colors.tealAccent,
-  Colors.yellow,
+  //Colors.yellow,
   //Colors.yellowAccent
 ];

@@ -17,14 +17,14 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   final List<_MenuItem> _menuItems = [
     _MenuItem(
-      title: 'Crucigrama Bíblico',
+      title: 'Crucigrama bíblico',
       descrip: 'Juego de palabras cruzadas',
       assetName: 'assets/images/crucigrama.jpg',
       location: '/crucigrama',
     ),
     _MenuItem(
-      title: 'Sopa de letras Bíblico',
-      descrip: 'Palabras bíblicas',
+      title: 'Sopa de letras bíblico',
+      descrip: 'Encuentra las palabras',
       assetName: 'assets/images/sopadeletras.jpg',
       location: '/sopadeletras',
     ),

@@ -1,23 +1,22 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'fitted_text.dart';
-import 'marker_colors.dart';
+import '../widgets/fitted_text.dart';
+import 'sopadeletras_colors.dart';
+import 'sopadeletras_logic.dart';
 
-class WordSearchBoard extends StatefulWidget {
-  final List<String> board;
-  final Map<String, Color?> words;
-  final int size;
-  final Function(String, Color)? onWordMarked;
+class SopadeletrasBoard extends StatefulWidget {
+  final SopadeletrasLogic _logic;
+  final Future<bool> Function(String, Color)? onWordMarked;
 
-  WordSearchBoard({Key? key, required this.board, required this.words, this.onWordMarked})
-      : size = sqrt(board.length).toInt(),
+  const SopadeletrasBoard({Key? key, required logic, this.onWordMarked})
+      : _logic = logic,
         super(key: key);
 
   @override
-  createState() => _WordSearchBoardState();
+  createState() => _SopadeletrasBoardState();
 }
 
-class _WordSearchBoardState extends State<WordSearchBoard> {
+class _SopadeletrasBoardState extends State<SopadeletrasBoard> {
   final key = GlobalKey();
   Point? _firstSelected;
   Point? _lastSelected;
@@ -40,7 +39,7 @@ class _WordSearchBoardState extends State<WordSearchBoard> {
               CustomPaint(
                 size: Size.infinite,
                 painter: _WordMarkerPainter(
-                    _firstSelected!, _lastSelected!, widget.size, _colorSelected!),
+                    _firstSelected!, _lastSelected!, widget._logic.size, _colorSelected!),
               ),
             Listener(
               onPointerDown: _detectTapedItem,
@@ -48,9 +47,9 @@ class _WordSearchBoardState extends State<WordSearchBoard> {
               onPointerUp: _clearSelection,
               child: GridView.builder(
                 key: key,
-                itemCount: widget.board.length,
+                itemCount: widget._logic.board.length,
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: widget.size,
+                  crossAxisCount: widget._logic.size,
                   childAspectRatio: 1,
                 ),
                 physics: const NeverScrollableScrollPhysics(),
@@ -58,7 +57,7 @@ class _WordSearchBoardState extends State<WordSearchBoard> {
                   return Container(
                     padding: const EdgeInsets.all(5),
                     child: FittedText(
-                      widget.board[index],
+                      widget._logic.board[index],
                       color: Colors.black87,
                       fontWeight: FontWeight.bold,
                     ),
@@ -74,9 +73,9 @@ class _WordSearchBoardState extends State<WordSearchBoard> {
 
   _detectTapedItem(PointerEvent event) {
     final RenderBox box = key.currentContext?.findRenderObject() as RenderBox;
-    var x = event.localPosition.dx ~/ (box.size.width / widget.size);
-    var y = event.localPosition.dy ~/ (box.size.height / widget.size);
-    if (x >= 0 && y >= 0 && x < widget.size && y < widget.size) {
+    var x = event.localPosition.dx ~/ (box.size.width / widget._logic.size);
+    var y = event.localPosition.dy ~/ (box.size.height / widget._logic.size);
+    if (x >= 0 && y >= 0 && x < widget._logic.size && y < widget._logic.size) {
       _selectIndex(Point(x, y));
     }
   }
@@ -87,7 +86,8 @@ class _WordSearchBoardState extends State<WordSearchBoard> {
       if (dir.x.abs() == dir.y.abs() || dir.x == 0 || dir.y == 0) {
         _lastSelected = point;
         _firstSelected ??= _lastSelected;
-        _colorSelected ??= markerColors[Random().nextInt(markerColors.length)].withOpacity(0.7);
+        _colorSelected ??=
+            markerColors[widget._logic.random.nextInt(markerColors.length)].withOpacity(0.7);
       }
     });
   }
@@ -95,16 +95,22 @@ class _WordSearchBoardState extends State<WordSearchBoard> {
   void _clearSelection(PointerUpEvent event) {
     setState(() {
       var word = _getWord();
-      if (widget.words.containsKey(word) && widget.words[word] == null) {
+      if (widget._logic.words.containsKey(word) && widget._logic.words[word]!.color == null) {
         _markers.add(_WordMarkerPainter(
           _firstSelected!,
           _lastSelected!,
-          widget.size,
+          widget._logic.size,
           _colorSelected!,
         ));
-        widget.words[word] = _colorSelected!.withOpacity(1);
+        widget._logic.words[word]!.color = _colorSelected!.withOpacity(1);
         if (widget.onWordMarked != null) {
-          widget.onWordMarked!(word, widget.words[word]!);
+          widget.onWordMarked!(word, widget._logic.words[word]!.color!).then((value) {
+            if (value) {
+              setState(() {
+                _markers.clear();
+              });
+            }
+          });
         }
       }
       _firstSelected = null;
@@ -118,11 +124,11 @@ class _WordSearchBoardState extends State<WordSearchBoard> {
     dir = Point((dir.x > 0 ? 1 : (dir.x < 0 ? -1 : 0)), (dir.y > 0 ? 1 : (dir.y < 0 ? -1 : 0)));
     var recX = _firstSelected!.x;
     var recY = _firstSelected!.y;
-    var result = widget.board[(recY * widget.size + recX).toInt()];
+    var result = widget._logic.board[(recY * widget._logic.size + recX).toInt()];
     while (recX != _lastSelected!.x || recY != _lastSelected!.y) {
       recX += dir.x;
       recY += dir.y;
-      result += widget.board[(recY * widget.size + recX).toInt()];
+      result += widget._logic.board[(recY * widget._logic.size + recX).toInt()];
     }
     return result;
   }
