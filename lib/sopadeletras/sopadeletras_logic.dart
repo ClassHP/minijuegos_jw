@@ -1,8 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-// ignore: import_of_legacy_library_into_null_safe
-import 'package:word_search/word_search.dart';
+import 'package:word_search_safety/word_search_safety.dart';
 
 class SopadeletrasLogic {
   final int _minSize = 7;
@@ -89,14 +88,14 @@ class SopadeletrasLogic {
     );
 
     // Create new instance of the WordSearch class
-    final wordSearch = WordSearch();
+    final wordSearch = WordSearchSafety();
 
     // Create a new puzzle
     final WSNewPuzzle newPuzzle = wordSearch.newPuzzle(_words.keys.toList(), ws);
 
     /// Check if there are errors generated while creating the puzzle
-    if (newPuzzle.errors.isEmpty) {
-      for (var row in newPuzzle.puzzle) {
+    if (newPuzzle.errors!.isEmpty) {
+      for (var row in newPuzzle.puzzle!) {
         for (var col in row) {
           _board.add(col);
         }

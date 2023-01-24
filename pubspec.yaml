@@ -40,7 +40,7 @@ dependencies:
   share_plus: ^6.3.0
   url_launcher: ^6.1.7
   localstorage: ^4.0.0+1
-  word_search: ^0.1.2
+  word_search_safety: ^0.1.2-nullsafety.1
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +52,31 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+  change_app_package_name: ^1.1.0
+
+flutter_icons:
+  image_path: "assets/images/icon-1024x1024.png"
+  # image_path_android: "assets/images/icon-1024x1024.png"
+  # image_path_ios: "assets/images/icon-1024x1024.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  adaptive_icon_background: "assets/images/icon-background-1024x1024.png" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/images/icon-1024x1024.png" # only available for Android 8.0 devices and above
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+    background_color: "#9c29b2"
+    theme_color: "#9c29b2"
+  windows:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

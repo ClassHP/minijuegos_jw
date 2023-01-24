@@ -147,17 +147,21 @@ class _Text extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RichText(
-      text: TextSpan(
-        // Note: Styles for TextSpans must be explicitly defined.
-        // Child text spans will inherit styles from parent
-        style: Theme.of(context).textTheme.headline6,
-        children: textList
-            .map<TextSpan>((e) => TextSpan(
-                  text: e.text,
-                  style: TextStyle(backgroundColor: e.color),
-                ))
-            .toList(),
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: RichText(
+        text: TextSpan(
+          // Note: Styles for TextSpans must be explicitly defined.
+          // Child text spans will inherit styles from parent
+          style: Theme.of(context).textTheme.headline6,
+          children: textList
+              .map<TextSpan>((e) => TextSpan(
+                    text: e.text,
+                    style:
+                        TextStyle(backgroundColor: e.color, letterSpacing: !e.static ? 3.0 : null),
+                  ))
+              .toList(),
+        ),
       ),
     );
   }

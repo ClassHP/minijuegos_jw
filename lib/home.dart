@@ -8,7 +8,7 @@ import 'main.dart';
 class Home extends StatefulWidget {
   const Home({super.key});
 
-  final String title = 'Minijuegos JW';
+  final String title = 'Minijuegos JW | Juegos bíblicos';
 
   @override
   State<Home> createState() => _HomeState();
@@ -16,12 +16,12 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   final List<_MenuItem> _menuItems = [
-    _MenuItem(
+    /*_MenuItem(
       title: 'Crucigrama bíblico',
       descrip: 'Juego de palabras cruzadas',
       assetName: 'assets/images/crucigrama.jpg',
       location: '/crucigrama',
-    ),
+    ),*/
     _MenuItem(
       title: 'Sopa de letras bíblico',
       descrip: 'Encuentra las palabras',
@@ -66,7 +66,10 @@ class _HomeState extends State<Home> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(
+          widget.title,
+          style: const TextStyle(fontWeight: FontWeight.bold),
+        ),
       ),
       body: GridView.count(
         restorationId: 'grid_view_demo_grid_offset',

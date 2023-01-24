@@ -1,4 +1,30 @@
 Lista|Libros de la Bíblia||Génesis,Éxodo,Levítico,Números,Deuteronomio,Josué,Jueces,Rut,Samuel,Reyes,Crónicas,Esdras,Nehemías,Ester,Job,Salmos,Proverbios,Eclesiastés,Isaías,Jeremías,Lamentaciones,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías,Mateo,Marcos,Lucas,Juan,Hechos,Romanos,Corintios,Gálatas,Efesios,Filipenses,Colosenses,Tesalonicenses,Timoteo,Tito,Filemón,Hebreos,Santiago,Pedro,Judas,Apocalipsis
-Texto|Hebreos  11 : 1|La fe es la certeza de que sucederá lo que se espera, la prueba convincente de que existen realidades que no se ven.|certeza,sucederá,espera,prueba,existen,realidades
-Lista|Amigos de Jehová||Abel,Abrahán,José,Noé,Isaac,Jacob,Rut,Ezeqías,María
+Lista|Amigos de Jehová||Abel,Abrahán,José,Noé,Isaac,Jacob,Rut,Ezeqías,María,Moisés,Daniel,David
 Lista|Profetas||Isaías,Jeremías,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías
+Lista|Apostoles||Pedro,Felipe,Santiago,Mateo,Judas,Juan,Simón,Tadeo,Tomás,Bartolomé,Santiago,Andrés
+Texto|Hebreos 11:1|"La fe es la certeza de que sucederá lo que se espera, la prueba convincente de que existen realidades que no se ven."|certeza,sucederá,espera,prueba,existen,realidades
+Texto|Salmos 83:18|Que la gente sepa que tu nombre es Jehová, que solo tú eres el Altísimo sobre toda la tierra.|nombre,Jehová,Altísimo,tierra
+Texto|Apocalipsis 21:4|"Y les secará toda lágrima de sus ojos, y la muerte ya no existirá, ni habrá más tristeza ni llanto ni dolor. Las cosas anteriores han desaparecido”|secará,lágrima,muerte,tristeza,llanto,dolor,anteriores
+Texto|Isaías 42:8|“Yo soy Jehová. Ese es mi nombre; mi gloria no se la doy a nadie ni doy la alabanza que me pertenece a imágenes esculpidas”|Jehová,nombre,gloria,alabanza,imágenes
+Texto|Hebreos 3:4|“Claro, toda casa es construida por alguien, pero el que ha construido todas las cosas es Dios”.|casa,construida,alguien,todas,Dios
+Texto|Isaías 40:26|“Levanten la vista al cielo y vean. ¿Quién ha creado estas cosas? Es aquel que las hace salir como un ejército, contándolas una por una; a todas las llama por su nombre. Su energía dinámica es tan inmensa y su poder tan impresionante que ninguna de ellas falta”.|cielo,creado,aquel,salir,ejército,llama,nombre,energía,inmensa,falta
+Texto|Josué 1:8|“Este libro de la Ley no debe apartarse de tu boca, y tienes que leerlo y meditar en él día y noche, a fin de que obedezcas cuidadosamente todo lo que está escrito en él; porque entonces te irá bien en tu camino y entonces actuarás con sabiduría”.|libro,Ley,boca,leerlo,meditar,noche,fin,todo,escrito,bien,camino
+Texto|Salmo 1:1-3|“Feliz el hombre que no anda según los consejos de los malvados [...], sino que disfruta con la ley de Jehová; día y noche lee su ley y medita en ella. [...] Todo lo que él haga tendrá éxito”|Feliz,hombre,consejos,malvados,disfruta,Jehová,noche,medita,haga,éxito
+Texto|Hebreos 10:24, 25|“Y estemos pendientes unos de otros para motivarnos a mostrar amor y a hacer buenas obras, sin dejar de reunirnos”|estemos,otros,mostrar,amor,buenas,obras,dejar
+Texto|Santiago 1:5|“Si a alguno de ustedes le falta sabiduría, que se la pida constantemente a Dios, y la recibirá, porque él da generosamente a todos y sin reproches”|alguno,ustedes,sabiduría,pida,Dios,recibirá,todos,reproches
+Texto|2 Timoteo 3:16, 17|“Toda la Escritura está inspirada por Dios y es útil para enseñar, para censurar, para rectificar las cosas y para educar de acuerdo con lo que está bien”|Escritura,inspirada,Dios,enseñar,censurar,rectificar,educar,bien
+Texto|Eclesiastés 1:7|“Todos los ríos van a dar al mar, pero el mar no se llena. Los ríos vuelven al lugar donde nacieron para volver a correr de nuevo”|ríos,mar,llena,lugar,volver,correr,nuevo
+Texto|Mateo 6:10|“Que venga tu Reino. Que se haga tu voluntad, como en el cielo, también en la tierra”.|venga,Reino,haga,voluntad,cielo,tierra
+Texto|Job 34:10|"Así que escúchenme, hombres sensatos: ¡es impensable que el Dios verdadero actúe con maldad, que el Todopoderoso haga algo injusto!"|escúchenme,sensatos,impensable,verdadero,maldad,haga,injusto
+Texto|Santiago 1:13|“Que nadie diga durante una prueba: ‘Dios me está probando’. Porque, con cosas malas, nadie puede probar a Dios ni él prueba a nadie”|diga,prueba,Dios,cosas,malas,puede
+Texto|Salmo 37:29|“Los justos heredarán la tierra y vivirán en ella para siempre”|justos,tierra,vivirán,ella,siempre
+Texto|Isaías 25:8|"Él eliminará la muerte para siempre, y el Señor Soberano Jehová secará las lágrimas de todos los rostros. Quitará de toda la tierra la deshonra de su pueblo, porque Jehová mismo lo ha dicho."|muerte,siempre,Señor,Jehová,lágrimas,rostros,Quitará,deshonra,dicho
+Texto|Isaías 35:5|"En ese tiempo, los ojos de los ciegos serán abiertos y los oídos de los sordos serán destapados."|tiempo,ojos,ciegos,abiertos,oídos,sordos
+Texto|Isaías 35:6|"En ese tiempo, el cojo trepará como un ciervo y la lengua del mudo gritará de alegría. Pues brotarán aguas en el desierto y torrentes en la llanura desértica."|tiempo,cojo,ciervo,lengua,gritará,alegría,aguas,desierto,llanura
+Texto|Isaías 65:21|“Construirán casas y vivirán en ellas; plantarán viñas y comerán su fruto."|casas,vivirán,viñas,comerán,fruto
+Texto|Juan 5:28, 29|“No se asombren de esto, porque viene la hora en que todos los que están en las tumbas oirán su voz y saldrán”|asombren,esto,viene,hora,todos,tumbas,oirán,saldrán
+Texto|Hechos 24:15|"Y tengo esperanza en Dios, esperanza que también tienen estos hombres, de que va a haber una resurrección tanto de justos como de injustos."|esperanza,Dios,también,hombres,haber,resurrección,justos,injustos
+Texto|Eclesiastés 3:12, 13|"He llegado a la conclusión de que no hay nada mejor para ellos que alegrarse y hacer el bien durante su vida, y también que todos coman y beban, y disfruten de todo su duro trabajo. Eso es un regalo de Dios."|conclusión,mejor,alegrarse,bien,vida,coman,beban,duro,trabajo,regalo,Dios
+Texto|Proverbios 15:17|“Es mejor un plato de verduras donde hay amor que un toro engordado donde hay odio”|mejor,plato,verduras,amor,toro,engordado,odio
+Texto|Isaías 48:17|“Yo, Jehová, soy tu Dios, el que te enseña por tu propio bien, el que te guía por el camino en que debes andar”|Jehová,Dios,enseña,bien,guía,camino,andar
+Texto|Mateo 5:3|“Felices los que reconocen sus necesidades espirituales, porque el Reino de los cielos es de ellos”|Felices,reconocen,necesidades,Reino,cielos

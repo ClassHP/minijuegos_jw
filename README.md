@@ -1,10 +1,33 @@
 # minijuegos_jw
 
-A new Flutter project.
+Juego bíblicos para pasar el rato o estudio en familia.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Comandos utiles
+
+Compilar para Android:
+```
+flutter build apk
+flutter build appbundle
+```
+
+Compilar para Web y subir a Firebase Hosting
+```
+flutter build web
+firebase deploy
+```
+
+Cambiar package name:
+```
+flutter pub run change_app_package_name:main com.dominio.nombre
+```
+
+Actualizar iconos:
+```
+flutter pub run flutter_launcher_icons:main
+```
+
+## Documentación Frutter
 
 A few resources to get you started if this is your first Flutter project:
 
