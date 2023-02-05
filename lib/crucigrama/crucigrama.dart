@@ -4,7 +4,7 @@ class Crucigrama extends StatefulWidget {
   const Crucigrama({Key? key}) : super(key: key);
 
   @override
-  _CrucigramaState createState() => _CrucigramaState();
+  createState() => _CrucigramaState();
 }
 
 class _CrucigramaState extends State<Crucigrama> {

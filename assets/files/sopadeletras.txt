@@ -1,30 +1,87 @@
-Lista|Libros de la Bíblia||Génesis,Éxodo,Levítico,Números,Deuteronomio,Josué,Jueces,Rut,Samuel,Reyes,Crónicas,Esdras,Nehemías,Ester,Job,Salmos,Proverbios,Eclesiastés,Isaías,Jeremías,Lamentaciones,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías,Mateo,Marcos,Lucas,Juan,Hechos,Romanos,Corintios,Gálatas,Efesios,Filipenses,Colosenses,Tesalonicenses,Timoteo,Tito,Filemón,Hebreos,Santiago,Pedro,Judas,Apocalipsis
-Lista|Amigos de Jehová||Abel,Abrahán,José,Noé,Isaac,Jacob,Rut,Ezeqías,María,Moisés,Daniel,David
-Lista|Profetas||Isaías,Jeremías,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías
-Lista|Apostoles||Pedro,Felipe,Santiago,Mateo,Judas,Juan,Simón,Tadeo,Tomás,Bartolomé,Santiago,Andrés
-Texto|Hebreos 11:1|"La fe es la certeza de que sucederá lo que se espera, la prueba convincente de que existen realidades que no se ven."|certeza,sucederá,espera,prueba,existen,realidades
-Texto|Salmos 83:18|Que la gente sepa que tu nombre es Jehová, que solo tú eres el Altísimo sobre toda la tierra.|nombre,Jehová,Altísimo,tierra
-Texto|Apocalipsis 21:4|"Y les secará toda lágrima de sus ojos, y la muerte ya no existirá, ni habrá más tristeza ni llanto ni dolor. Las cosas anteriores han desaparecido”|secará,lágrima,muerte,tristeza,llanto,dolor,anteriores
-Texto|Isaías 42:8|“Yo soy Jehová. Ese es mi nombre; mi gloria no se la doy a nadie ni doy la alabanza que me pertenece a imágenes esculpidas”|Jehová,nombre,gloria,alabanza,imágenes
-Texto|Hebreos 3:4|“Claro, toda casa es construida por alguien, pero el que ha construido todas las cosas es Dios”.|casa,construida,alguien,todas,Dios
-Texto|Isaías 40:26|“Levanten la vista al cielo y vean. ¿Quién ha creado estas cosas? Es aquel que las hace salir como un ejército, contándolas una por una; a todas las llama por su nombre. Su energía dinámica es tan inmensa y su poder tan impresionante que ninguna de ellas falta”.|cielo,creado,aquel,salir,ejército,llama,nombre,energía,inmensa,falta
-Texto|Josué 1:8|“Este libro de la Ley no debe apartarse de tu boca, y tienes que leerlo y meditar en él día y noche, a fin de que obedezcas cuidadosamente todo lo que está escrito en él; porque entonces te irá bien en tu camino y entonces actuarás con sabiduría”.|libro,Ley,boca,leerlo,meditar,noche,fin,todo,escrito,bien,camino
-Texto|Salmo 1:1-3|“Feliz el hombre que no anda según los consejos de los malvados [...], sino que disfruta con la ley de Jehová; día y noche lee su ley y medita en ella. [...] Todo lo que él haga tendrá éxito”|Feliz,hombre,consejos,malvados,disfruta,Jehová,noche,medita,haga,éxito
-Texto|Hebreos 10:24, 25|“Y estemos pendientes unos de otros para motivarnos a mostrar amor y a hacer buenas obras, sin dejar de reunirnos”|estemos,otros,mostrar,amor,buenas,obras,dejar
-Texto|Santiago 1:5|“Si a alguno de ustedes le falta sabiduría, que se la pida constantemente a Dios, y la recibirá, porque él da generosamente a todos y sin reproches”|alguno,ustedes,sabiduría,pida,Dios,recibirá,todos,reproches
-Texto|2 Timoteo 3:16, 17|“Toda la Escritura está inspirada por Dios y es útil para enseñar, para censurar, para rectificar las cosas y para educar de acuerdo con lo que está bien”|Escritura,inspirada,Dios,enseñar,censurar,rectificar,educar,bien
-Texto|Eclesiastés 1:7|“Todos los ríos van a dar al mar, pero el mar no se llena. Los ríos vuelven al lugar donde nacieron para volver a correr de nuevo”|ríos,mar,llena,lugar,volver,correr,nuevo
-Texto|Mateo 6:10|“Que venga tu Reino. Que se haga tu voluntad, como en el cielo, también en la tierra”.|venga,Reino,haga,voluntad,cielo,tierra
-Texto|Job 34:10|"Así que escúchenme, hombres sensatos: ¡es impensable que el Dios verdadero actúe con maldad, que el Todopoderoso haga algo injusto!"|escúchenme,sensatos,impensable,verdadero,maldad,haga,injusto
-Texto|Santiago 1:13|“Que nadie diga durante una prueba: ‘Dios me está probando’. Porque, con cosas malas, nadie puede probar a Dios ni él prueba a nadie”|diga,prueba,Dios,cosas,malas,puede
+Lista|Apostoles|1,0|Pedro,Felipe,Mateo,Juan,Simón,Tadeo,Tomás
+Lista|Apostoles|1,0|Felipe,Santiago,Mateo,Judas,Simón,Bartolomé,Santiago,Andrés
+Lista|Apostoles|1,7|Pedro,Felipe,Santiago,Mateo,Judas,Juan,Simón,Tadeo,Tomás,Bartolomé,Santiago,Andrés
+Lista|Amigos de Jehová|1,0|Abel,José,Noé,Isaac,Jacob,Rut,Moisés,David
+Lista|Amigos de Jehová|1,0|Abrahán,Ezeqías,María,Moisés,Daniel,David,Samuel
+Lista|Profetas|1,0|Isaías,Daniel,Oseas,Joel,Amós,Jonás,Nahúm,Ageo
+Lista|Profetas|1,0|Jeremías,Ezequiel,Abdías,Miqueas,Habacuc,Sofonías,Zacarías,Malaquías
+Lista|Profetas|1,7|Isaías,Jeremías,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías
+Lista|Libros de la Bíblia|0,0|Génesis,Éxodo,Levítico,Números,Deuteronomio,Josué,Jueces
+Lista|Libros de la Bíblia|0,0|Rut,Samuel,Reyes,Crónicas,Esdras,Nehemías,Ester
+Lista|Libros de la Bíblia|0,0|Job,Salmos,Proverbios,Eclesiastés,Isaías,Jeremías,Lamentaciones
+Lista|Libros de la Bíblia|0,0|Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás
+Lista|Libros de la Bíblia|0,0|Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías
+Lista|Libros de la Bíblia|0,0|Mateo,Marcos,Lucas,Juan,Hechos,Romanos,Corintios
+Lista|Libros de la Bíblia|0,0|Gálatas,Efesios,Filipenses,Colosenses,Tesalonicenses,Timoteo,Tito
+Lista|Libros de la Bíblia|0,0|Filemón,Hebreos,Santiago,Pedro,Judas,Apocalipsis
+Lista|Libros de la Bíblia|1,7|Génesis,Éxodo,Levítico,Números,Deuteronomio,Josué,Jueces,Rut,Samuel,Reyes,Crónicas,Esdras,Nehemías,Ester,Job,Salmos,Proverbios,Eclesiastés,Isaías,Jeremías,Lamentaciones,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías,Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías,Mateo,Marcos,Lucas,Juan,Hechos,Romanos,Corintios,Gálatas,Efesios,Filipenses,Colosenses,Tesalonicenses,Timoteo,Tito,Filemón,Hebreos,Santiago,Pedro,Judas,Apocalipsis
+Lista|EL PENTATEUCO|0,0|Génesis,Éxodo,Levítico,Números,Deuteronomio
+Lista|LOS LIBROS HISTÓRICOS|0,0|Josué,Jueces,Rut,Samuel,Reyes,Crónicas,Esdras,Nehemías,Ester
+Lista|LOS LIBROS POÉTICOS|0,0|Job,Salmos,Proverbios,Eclesiastés,Cantar,Cantares
+Lista|LOS LIBROS PROFÉTICOS #1|0,0|Isaías,Jeremías,Lamentaciones,Ezequiel,Daniel,Oseas,Joel,Amós,Abdías
+Lista|LOS LIBROS PROFÉTICOS #2|0,0|Jonás,Miqueas,Nahúm,Habacuc,Sofonías,Ageo,Zacarías,Malaquías
+Lista|NUEVO TESTAMENTO #1|0,0|Mateo,Marcos,Lucas,Juan,Hechos,Romanos,Corintios
+Lista|NUEVO TESTAMENTO #2|0,0|Gálatas,Efesios,Filipenses,Colosenses,Tesalonicenses,Timoteo,Tito
+Lista|NUEVO TESTAMENTO #3|0,0|Filemón,Hebreos,Santiago,Pedro,Judas,Apocalipsis
+Lista|Escritores de la Bíblia #1|0,0|Moisés,Josué,Samuel,Gad,Natán,Jeremías,Esdras
+Lista|Escritores de la Bíblia #2|0,0|Nehemías,Mardoqueo,Moisés,David,Salomón,Agur,Lemuel
+Lista|Escritores de la Bíblia #3|0,0|Mateo,Marcos,Lucas,Juan,Pablo,Santiago,Pedro,Judas
+Lista|Los reyes del reino de Judá|1,7|Rehoboam,Abias,Asá,Jehosafat,Jehoram,Ocozías,Atalia,Jehoás,Amasias,Uzias,Azarias,Uzias,Jotán,Acaz,Ezequias,Manasés,Amón,Josias,Jehoacaz,Jehoiaquim,Joaquin,Sedequias
+Lista|Los reyes del reino de Israel|1,7|Jeroboán,Nadab,Baasá,Elá,Zimri,Omri,Tibni,Acab,Ocozias,Jehoram,Jehú,Jehoacaz,Jehoás,JeroboánII,Zacarias,Salum,Menahem,Pecahias,Pécah,Hosea
+Lista|Las medidas y el dinero en la antiguedad|1,7|Coro,Bato,Hin,Log,Homer,Efá,Sea,Omer,Cab,Quénice,Caña,Braza,Codo,Dedo,Palmo
+Lista|Monedas y pesos en las Escrituras Hebreas|0,0|Guerá,Beka,Pim,Siclo,Mina,Talento,Dárico,Esdras
+Lista|Monedas y pesos en las Escrituras Griegas Cristianas|0,0|Leptón,Cuadrante,Asarion,Denario,Dracma,Didracma,Tetradracma
+Texto|Los frutos de espíritu santo|0,0|Amor,Felicidad,Paz,Paciencia,Amabilidad,Bondad,Fe,Apacibilidad,Autocontrol
+Texto|1 Timoteo 6:8|“Así pues, si tenemos comida y ropa, estemos contentos con eso”|tenemos,comida,ropa,eso
+Texto|Salmo 119:105|“Tu palabra es una lámpara para mi pie y una luz para mi camino”|palabra,lámpara,pie,luz,camino
 Texto|Salmo 37:29|“Los justos heredarán la tierra y vivirán en ella para siempre”|justos,tierra,vivirán,ella,siempre
-Texto|Isaías 25:8|"Él eliminará la muerte para siempre, y el Señor Soberano Jehová secará las lágrimas de todos los rostros. Quitará de toda la tierra la deshonra de su pueblo, porque Jehová mismo lo ha dicho."|muerte,siempre,Señor,Jehová,lágrimas,rostros,Quitará,deshonra,dicho
-Texto|Isaías 35:5|"En ese tiempo, los ojos de los ciegos serán abiertos y los oídos de los sordos serán destapados."|tiempo,ojos,ciegos,abiertos,oídos,sordos
-Texto|Isaías 35:6|"En ese tiempo, el cojo trepará como un ciervo y la lengua del mudo gritará de alegría. Pues brotarán aguas en el desierto y torrentes en la llanura desértica."|tiempo,cojo,ciervo,lengua,gritará,alegría,aguas,desierto,llanura
+Texto|Salmo 65:2|“A ti, el que escucha las oraciones, a ti acudirá gente de toda clase”|escucha,oraciones,acudirá,gente,clase
 Texto|Isaías 65:21|“Construirán casas y vivirán en ellas; plantarán viñas y comerán su fruto."|casas,vivirán,viñas,comerán,fruto
-Texto|Juan 5:28, 29|“No se asombren de esto, porque viene la hora en que todos los que están en las tumbas oirán su voz y saldrán”|asombren,esto,viene,hora,todos,tumbas,oirán,saldrán
-Texto|Hechos 24:15|"Y tengo esperanza en Dios, esperanza que también tienen estos hombres, de que va a haber una resurrección tanto de justos como de injustos."|esperanza,Dios,también,hombres,haber,resurrección,justos,injustos
-Texto|Eclesiastés 3:12, 13|"He llegado a la conclusión de que no hay nada mejor para ellos que alegrarse y hacer el bien durante su vida, y también que todos coman y beban, y disfruten de todo su duro trabajo. Eso es un regalo de Dios."|conclusión,mejor,alegrarse,bien,vida,coman,beban,duro,trabajo,regalo,Dios
+Texto|Colosenses 3:20|“Hijos, sean obedientes a sus padres en todo, porque eso le agrada al Señor”|Hijos,padres,todo,agrada,Señor
+Texto|Mateo 6:27|“¿Quién de ustedes, por angustiarse, puede alargar un solo codo la duración de su vida?”|ustedes,alargar,codo,vida
+Texto|Efesios 6:1|“Hijos, sean obedientes a sus padres en unión con el Señor, porque esto es justo."|Hijos,padres,unión,Señor,justo
+Texto|Salmo 55:22|“Arroja tu carga sobre Jehová, y él te sostendrá. Jamás permitirá que caiga el justo”|carga,Jehová,Jamás,caiga,justo
+Texto|Salmos 83:18|Que la gente sepa que tu nombre es Jehová, que solo tú eres el Altísimo sobre toda la tierra.|nombre,Jehová,Altísimo,tierra
+Texto|Mateo 6:10|“Que venga tu Reino. Que se haga tu voluntad, como en el cielo, también en la tierra”.|venga,Reino,haga,voluntad,cielo,tierra
+Texto|Hebreos 3:4|“Claro, toda casa es construida por alguien, pero el que ha construido todas las cosas es Dios”.|casa,construida,alguien,todas,Dios
 Texto|Proverbios 15:17|“Es mejor un plato de verduras donde hay amor que un toro engordado donde hay odio”|mejor,plato,verduras,amor,toro,engordado,odio
-Texto|Isaías 48:17|“Yo, Jehová, soy tu Dios, el que te enseña por tu propio bien, el que te guía por el camino en que debes andar”|Jehová,Dios,enseña,bien,guía,camino,andar
+Texto|Lucas 11:28|Pero él le contestó: “No, más bien, ¡felices los que oyen la palabra de Dios y la ponen en práctica!”.|felices,oyen,palabra,Dios,ponen
+Texto|Isaías 35:5|"En ese tiempo, los ojos de los ciegos serán abiertos y los oídos de los sordos serán destapados."|tiempo,ojos,ciegos,abiertos,oídos,sordos
 Texto|Mateo 5:3|“Felices los que reconocen sus necesidades espirituales, porque el Reino de los cielos es de ellos”|Felices,reconocen,necesidades,Reino,cielos
+Texto|Isaías 48:17|“Yo, Jehová, soy tu Dios, el que te enseña por tu propio bien, el que te guía por el camino en que debes andar”|Jehová,Dios,enseña,bien,guía,camino,andar
+Texto|1 Juan 5:3|"Porque el amor a Dios consiste en esto: en que obedezcamos sus mandamientos; y sus mandamientos no son una carga"|amor,Dios,obedezcamos,mandamientos,carga
+Texto|Efesios 6:4|“Padres, no irriten a sus hijos, sino sigan criándolos de acuerdo con la disciplina y los consejos de Jehová”|irriten,hijos,criándolos,disciplina,consejos,Jehová
+Texto|Isaías 42:8|“Yo soy Jehová. Ese es mi nombre; mi gloria no se la doy a nadie ni doy la alabanza que me pertenece a imágenes esculpidas”|Jehová,nombre,gloria,alabanza,imágenes
+Texto|Juan 5:28, 29|“No se asombren de esto, porque viene la hora en que todos los que están en las tumbas oirán su voz y saldrán”|asombren,esto,viene,hora,todos,tumbas,oirán,saldrán
+Texto|Hebreos 10:24, 25|“Y estemos pendientes unos de otros para motivarnos a mostrar amor y a hacer buenas obras, sin dejar de reunirnos”|estemos,otros,mostrar,amor,buenas,obras,dejar
+Texto|Efesios 5:28|"Del mismo modo, los esposos deben amar a sus esposas como a sus propios cuerpos. El hombre que ama a su esposa se ama a sí mismo"|esposos,amar,esposas,cuerpos,hombre
+Texto|Hebreos 11:1|"La fe es la certeza de que sucederá lo que se espera, la prueba convincente de que existen realidades que no se ven."|certeza,sucederá,espera,prueba,existen,realidades
+Texto|Santiago 1:13|“Que nadie diga durante una prueba: ‘Dios me está probando’. Porque, con cosas malas, nadie puede probar a Dios ni él prueba a nadie”|diga,prueba,Dios,cosas,malas,puede
+Texto|Santiago 4:8|“Acérquense a Dios y él se acercará a ustedes. Límpiense las manos, pecadores, y purifiquen su corazón, indecisos”|Dios,acercará,ustedes,manos,pecadores,corazón,indecisos
+Texto|Juan 17:3|“Esto significa vida eterna: que lleguen a conocerte a ti, el único Dios verdadero, y a quien tú enviaste, Jesucristo”|vida,eterna,conocerte,Dios,verdadero,enviaste,Jesucristo
+Texto|Eclesiastés 1:7|“Todos los ríos van a dar al mar, pero el mar no se llena. Los ríos vuelven al lugar donde nacieron para volver a correr de nuevo”|ríos,mar,llena,lugar,volver,correr,nuevo
+Texto|Job 34:10|"Así que escúchenme, hombres sensatos: ¡es impensable que el Dios verdadero actúe con maldad, que el Todopoderoso haga algo injusto!"|escúchenme,sensatos,impensable,verdadero,maldad,haga,injusto
+Texto|Proverbios 21:5|“Con toda seguridad, los planes del que es trabajador tendrán buenos resultados; en cambio, todo el que se precipita acabará en la pobreza”|toda,planes,tendrán,buenos,cambio,acabará,pobreza
+Texto|Santiago 1:5|“Si a alguno de ustedes le falta sabiduría, que se la pida constantemente a Dios, y la recibirá, porque él da generosamente a todos y sin reproches”|alguno,sabiduría,pida,Dios,recibirá,todos,reproches
+Texto|Efesios 5:33|"Sin embargo, cada uno de ustedes debe amar a su esposa tal como se ama a sí mismo. A su vez, la esposa debe tenerle profundo respeto a su esposo"|embargo,ustedes,amar,esposa,mismo,tenerle,respeto,esposo
+Texto|Filipenses 1:9|“Esto es lo que sigo pidiendo en mis oraciones: que el amor de ustedes se haga cada vez más abundante con conocimiento exacto y pleno discernimiento”|pidiendo,oraciones,amor,haga,abundante,exacto,pleno
+Texto|Proverbios 3:5, 6|“Confía en Jehová con todo tu corazón y no te apoyes en tu propio entendimiento. Tómalo en cuenta en todos tus caminos, y él hará rectas tus sendas”|Jehová,corazón,propio,Tómalo,caminos,rectas,sendas
+Texto|Lucas 12:15|Entonces les dijo: “Mantengan los ojos bien abiertos y eviten todo tipo de codicia, porque, por mucho que uno tenga, las cosas que posee no le pueden dar la vida”.|dijo,ojos,eviten,codicia,tenga,posee,vida
+Texto|Mateo 6:34|“Así que nunca se angustien por el día siguiente, porque el día siguiente traerá sus propias preocupaciones. Bastante hay con los problemas de cada día”|angustien,día,porque,traerá,propias,Bastante,problemas
+Texto|Hechos 17:27|"Lo hizo para que buscaran a Dios, aunque fuera a tientas, y de veras lo encontraran, pues lo cierto es que él no está muy lejos de cada uno de nosotros"|hizo,Dios,tientas,encontraran,cierto,lejos,nosotros
+Texto|Hechos 24:15|"Y tengo esperanza en Dios, esperanza que también tienen estos hombres, de que va a haber una resurrección tanto de justos como de injustos."|esperanza,Dios,también,hombres,haber,resurrección,justos,injustos
+Texto|Apocalipsis 21:4|"Y les secará toda lágrima de sus ojos, y la muerte ya no existirá, ni habrá más tristeza ni llanto ni dolor. Las cosas anteriores han desaparecido”|secará,lágrima,muerte,tristeza,llanto,dolor,anteriores
+Texto|Santiago 1:5|“Si a alguno de ustedes le falta sabiduría, que se la pida constantemente a Dios, y la recibirá, porque él da generosamente a todos y sin reproches”|alguno,ustedes,sabiduría,pida,Dios,recibirá,todos,reproches
+Texto|Filipenses 4:6|"No se angustien por nada. Más bien, en cualquier situación, mediante oraciones y ruegos y dando gracias, háganle saber a Dios sus peticiones"|angustien,nada,situación,oraciones,ruegos,gracias,Dios,peticiones
+Texto|Filipenses 4:7|"y la paz de Dios, que está más allá de lo que ningún ser humano puede entender, protegerá sus corazones y sus mentes por medio de Cristo Jesús"|paz,Dios,allá,ningún,humano,entender,corazones,mentes,Cristo,Jesús
+Texto|Efesios 6:2, 3|"‘Honra a tu padre y a tu madre’. Ese es el primer mandato acompañado de una promesa: ‘Para que te vaya bien y permanezcas durante mucho tiempo sobre la tierra’”|padre,madre,primer,promesa,vaya,bien,mucho,tiempo,tierra
+Texto|Isaías 41:10|“No tengas miedo, porque estoy contigo. No te angusties, porque yo soy tu Dios. Yo te daré fuerzas. Sí, yo te ayudaré. Con mi mano derecha de justicia, de veras te sostendré”|miedo,contigo,Dios,fuerzas,ayudaré,derecha,veras
+Texto|Isaías 35:6|"En ese tiempo, el cojo trepará como un ciervo y la lengua del mudo gritará de alegría. Pues brotarán aguas en el desierto y torrentes en la llanura desértica."|tiempo,cojo,ciervo,lengua,gritará,alegría,aguas,desierto,llanura
+Texto|2 Timoteo 3:16, 17|“Toda la Escritura está inspirada por Dios y es útil para enseñar, para censurar, para rectificar las cosas y para educar de acuerdo con lo que está bien”|Escritura,inspirada,Dios,enseñar,censurar,rectificar,educar,bien
+Texto|Gálatas 5:22, 23|"Por otra parte, el fruto del espíritu es amor, felicidad, paz, paciencia, amabilidad, bondad, fe, apacibilidad, autocontrol. No hay ley en contra de esas cosas"|amor,felicidad,paz,paciencia,amabilidad,bondad,fe,apacibilidad,autocontrol
+Texto|Hechos 20:35|"En todo les he demostrado que deben trabajar así de duro para ayudar a los que son débiles y que deben recordar estas palabras que dijo el Señor Jesús: ‘Hay más felicidad en dar que en recibir’”|todo,trabajar,ayudar,débiles,recordar,Señor,Jesús
+Texto|Isaías 25:8|"Él eliminará la muerte para siempre, y el Señor Soberano Jehová secará las lágrimas de todos los rostros. Quitará de toda la tierra la deshonra de su pueblo, porque Jehová mismo lo ha dicho."|muerte,siempre,Señor,Jehová,lágrimas,rostros,Quitará,deshonra,dicho
+Texto|Salmo 1:1-3|“Feliz el hombre que no anda según los consejos de los malvados [...], sino que disfruta con la ley de Jehová; día y noche lee su ley y medita en ella. [...] Todo lo que él haga tendrá éxito”|Feliz,hombre,consejos,malvados,disfruta,Jehová,noche,medita,haga,éxito
+Texto|Eclesiastés 3:12, 13|"He llegado a la conclusión de que no hay nada mejor para ellos que alegrarse y hacer el bien durante su vida, y también que todos coman y beban, y disfruten de todo su duro trabajo. Eso es un regalo de Dios."|conclusión,mejor,alegrarse,bien,vida,coman,beban,duro,trabajo,regalo,Dios
+Texto|Josué 1:8|“Este libro de la Ley no debe apartarse de tu boca, y tienes que leerlo y meditar en él día y noche, a fin de que obedezcas cuidadosamente todo lo que está escrito en él; porque entonces te irá bien en tu camino y entonces actuarás con sabiduría”.|libro,Ley,boca,leerlo,meditar,noche,fin,todo,escrito,bien,camino
+Texto|Isaías 40:26|“Levanten la vista al cielo y vean. ¿Quién ha creado estas cosas? Es aquel que las hace salir como un ejército, contándolas una por una; a todas las llama por su nombre. Su energía dinámica es tan inmensa y su poder tan impresionante que ninguna de ellas falta”.|cielo,creado,aquel,salir,ejército,llama,nombre,energía,inmensa,falta

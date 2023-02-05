@@ -1,4 +1,4 @@
-package com.example.minijuegos_jw
+package com.classhp.minijuegosjw
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -10,7 +10,7 @@ class SopadeletrasLogic {
   Map<String, WordData> _words = {};
   Map<String, WordData> get words => _words;
   late final Future ready;
-  final List<_Data> _dataList = [];
+  static final List<_Data> _dataList = [];
   _Data? _data;
   String get title => _data?.title ?? '';
   bool _isEnd = false;
@@ -23,15 +23,37 @@ class SopadeletrasLogic {
   Random get random => _random;
 
   SopadeletrasLogic() {
-    ready = rootBundle.loadString('assets/files/sopadeletras.txt').then((value) {
+    if (_dataList.isEmpty) {
+      ready = _loadDataList();
+    } else {
+      ready = Future(() => null);
+    }
+  }
+
+  Future _loadDataList() {
+    return rootBundle.loadString('assets/files/sopadeletras.txt').then((value) {
       var lines = value.split('\r\n');
       for (var line in lines) {
         var cols = line.split('|');
+        var category = cols[0];
+        var title = cols[1];
+        var text = cols[2];
+        var words = cols[3].split(',').map((e) => WordData()..word = e).toList();
+        var shuffle = false;
+        var maxWords = 0;
+        if (cols[0] == 'Lista') {
+          var conf = text.split(',');
+          text = '';
+          shuffle = conf[0] == '1';
+          maxWords = int.parse(conf[1]);
+        }
         _dataList.add(_Data()
-          ..category = cols[0]
-          ..title = cols[1]
-          ..text = cols[2]
-          ..words = cols[3].split(','));
+          ..category = category
+          ..title = title
+          ..text = text
+          ..words = words
+          ..shuffle = shuffle
+          ..maxWords = maxWords);
       }
     });
   }
@@ -40,11 +62,14 @@ class SopadeletrasLogic {
     _isEnd = false;
     _textList.clear();
     _data = _dataList[_random.nextInt(_dataList.length)];
-    var wordsTop = _data!.words.toList().map((e) => WordData()..word = e).toList();
-    if (_data!.text == '') {
+    var wordsTop = _data!.words.toList();
+    if (_data!.shuffle) {
       wordsTop.shuffle();
-      wordsTop = wordsTop.take(7).toList();
-    } else {
+    }
+    if (_data!.maxWords > 0) {
+      wordsTop = wordsTop.take(_data!.maxWords).toList();
+    }
+    if (_data!.text != '') {
       var text = _data!.text;
       for (var word in wordsTop) {
         var split = text.split(word.word);
@@ -59,7 +84,7 @@ class SopadeletrasLogic {
           ..static = true
           ..word = text);
       }
-      print(_textList.map((e) => e.text).join());
+      //print(_textList.map((e) => e.text).join());
     }
     //var wordsList = wordsTop.map((e) => _cleanWord(e).toUpperCase()).toList();
     _words = {for (var e in wordsTop) _cleanWord(e.word).toUpperCase(): e};
@@ -128,7 +153,9 @@ class _Data {
   late String category;
   late String title;
   late String text;
-  late List<String> words;
+  late List<WordData> words;
+  late bool shuffle;
+  late int maxWords;
 }
 
 class WordData {

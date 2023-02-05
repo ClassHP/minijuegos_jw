@@ -31,10 +31,24 @@ class _SopadeletrasState extends State<Sopadeletras> {
       appBar: AppBar(
         title: const Text('Sopa de letras bíblico'),
         actions: [
-          IconButton(
-            onPressed: _share,
-            icon: const Icon(Icons.share),
-          ),
+          PopupMenuButton(itemBuilder: (context) {
+            return [
+              PopupMenuItem(
+                onTap: _share,
+                child: const ListTile(
+                  leading: Icon(Icons.share),
+                  title: Text('Compartir'),
+                ),
+              ),
+              PopupMenuItem(
+                onTap: _newShuffle,
+                child: const ListTile(
+                  leading: Icon(Icons.shuffle),
+                  title: Text('Nuevo aleatorio'),
+                ),
+              ),
+            ];
+          }),
         ],
       ),
       body: Container(
@@ -95,6 +109,12 @@ class _SopadeletrasState extends State<Sopadeletras> {
     return ret;
   }
 
+  void _newShuffle() {
+    setState(() {
+      _logic.init();
+    });
+  }
+
   Future<void> _share() async {
     var text = '*Sopa de letras bíblico*\n';
     text += '${_logic.title}\n';
@@ -108,7 +128,7 @@ class _SopadeletrasState extends State<Sopadeletras> {
     }
     text += '\nDescarga la app y juega: \n';
     text += Tools.urlApp;
-    print(text);
+    //print(text);
     return Share.share(text, subject: 'Juegos bíblicos JW');
   }
 
@@ -142,8 +162,11 @@ class _SopadeletrasState extends State<Sopadeletras> {
 }
 
 class _Text extends StatelessWidget {
-  List<WordData> textList = [];
-  _Text({Key? key, required this.textList}) : super(key: key);
+  final List<WordData> _textList;
+
+  const _Text({Key? key, required List<WordData> textList})
+      : _textList = textList,
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -153,12 +176,13 @@ class _Text extends StatelessWidget {
         text: TextSpan(
           // Note: Styles for TextSpans must be explicitly defined.
           // Child text spans will inherit styles from parent
-          style: Theme.of(context).textTheme.headline6,
-          children: textList
+          style: Theme.of(context).textTheme.titleLarge,
+          children: _textList
               .map<TextSpan>((e) => TextSpan(
                     text: e.text,
-                    style:
-                        TextStyle(backgroundColor: e.color, letterSpacing: !e.static ? 3.0 : null),
+                    style: TextStyle(
+                        backgroundColor: e.color?.withOpacity(0.7),
+                        letterSpacing: !e.static && e.color == null ? 3.0 : null),
                   ))
               .toList(),
         ),

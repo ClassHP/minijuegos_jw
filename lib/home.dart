@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:flutter/foundation.dart' show kIsWeb;
+import 'Tools.dart';
 import 'main.dart';
 
 class Home extends StatefulWidget {
@@ -17,13 +17,13 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   final List<_MenuItem> _menuItems = [
     /*_MenuItem(
-      title: 'Crucigrama bíblico',
+      title: 'Crucigrama',
       descrip: 'Juego de palabras cruzadas',
       assetName: 'assets/images/crucigrama.jpg',
       location: '/crucigrama',
     ),*/
     _MenuItem(
-      title: 'Sopa de letras bíblico',
+      title: 'Sopa de letras',
       descrip: 'Encuentra las palabras',
       assetName: 'assets/images/sopadeletras.jpg',
       location: '/sopadeletras',
@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
 
   _openAndroid() {
     launchUrl(
-      Uri.parse('https://play.google.com/store/apps/details?id=com.classhp.minijuegosjw'),
+      Uri.parse(Tools.urlApp),
       mode: LaunchMode.externalApplication,
     );
   }
@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
   }
 
   _share() {
-    Share.share('¡Mira estos minijuegos! https://minijuegosjw.web.app');
+    Share.share('MinijuegosJW - Juegos Bíblicos \n${Tools.urlApp}');
   }
 
   @override
@@ -91,16 +91,17 @@ class _HomeState extends State<Home> {
                 ),
                 clipBehavior: Clip.antiAlias,
                 child: GridTileBar(
-                  backgroundColor: Colors.black54,
-                  title: FittedBox(
-                    fit: BoxFit.scaleDown,
-                    alignment: AlignmentDirectional.centerStart,
-                    child: Text(menuItem.title),
+                  backgroundColor: Theme.of(context).colorScheme.background.withOpacity(0.90),
+                  title: Text(
+                    menuItem.title,
+                    style: Theme.of(context)
+                        .textTheme
+                        .titleMedium!
+                        .copyWith(fontWeight: FontWeight.bold),
                   ),
-                  subtitle: FittedBox(
-                    fit: BoxFit.scaleDown,
-                    alignment: AlignmentDirectional.centerStart,
-                    child: Text(menuItem.descrip),
+                  subtitle: Text(
+                    menuItem.descrip,
+                    style: Theme.of(context).textTheme.bodyMedium,
                   ),
                 ),
               ),
@@ -141,7 +142,7 @@ class _HomeState extends State<Home> {
                 label: const Text("by @ClassHP"),
                 onPressed: _openClassHP,
               ),
-              if (kIsWeb) ...[
+              if (Tools.isWeb) ...[
                 TextButton.icon(
                   style: TextButton.styleFrom(
                     foregroundColor: Theme.of(context).colorScheme.onPrimary,
@@ -159,7 +160,7 @@ class _HomeState extends State<Home> {
                   onPressed: _openAndroid,
                 ),
               ],
-              if (!kIsWeb)
+              if (Tools.isNotWeb)
                 TextButton.icon(
                   style: TextButton.styleFrom(
                     foregroundColor: Theme.of(context).colorScheme.onPrimary,

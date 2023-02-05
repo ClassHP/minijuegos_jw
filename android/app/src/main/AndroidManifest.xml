@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.minijuegos_jw">
+    package="com.classhp.minijuegosjw">
    <application
-        android:label="minijuegos_jw"
+        android:label="Minijuegos JW"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
