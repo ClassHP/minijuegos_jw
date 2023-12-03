@@ -90,7 +90,7 @@ class SopadeletrasLogic {
     _words = {for (var e in wordsTop) _cleanWord(e.word).toUpperCase(): e};
     _board = [];
 
-    // Create the puzzle sessting object
+    // Create the puzzle setting object
     final WSSettings ws = WSSettings(
       width: _minSize,
       height: _minSize,

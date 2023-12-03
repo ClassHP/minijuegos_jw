@@ -41,6 +41,7 @@ dependencies:
   url_launcher: ^6.1.7
   localstorage: ^4.0.0+1
   word_search_safety: ^0.1.2-nullsafety.1
+  roulette: ^0.1.5
 
 dev_dependencies:
   flutter_test:

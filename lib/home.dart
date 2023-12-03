@@ -28,6 +28,12 @@ class _HomeState extends State<Home> {
       assetName: 'assets/images/sopadeletras.jpg',
       location: '/sopadeletras',
     ),
+    _MenuItem(
+      title: 'Trivia',
+      descrip: 'Responde las preguntas',
+      assetName: 'assets/images/trivia.png',
+      location: '/trivia',
+    ),
   ];
 
   _openClassHP() {
